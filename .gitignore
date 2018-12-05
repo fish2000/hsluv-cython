@@ -3,7 +3,6 @@
 *.so
 Makefile
 CMakeCache.txt
-*.cmake
 CMakeFiles
 tests/test_hsluv
 build/
