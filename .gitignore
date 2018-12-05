@@ -1,4 +1,6 @@
 *.pyc
+*.pyo
+*.so
 Makefile
 CMakeCache.txt
 *.cmake
