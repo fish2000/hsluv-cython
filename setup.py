@@ -266,9 +266,6 @@ macros.define('VERSION',                 __version__)
 macros.define('NPY_NO_DEPRECATED_API',  'NPY_1_7_API_VERSION')
 macros.define('PY_ARRAY_UNIQUE_SYMBOL', 'YO_DOGG_I_HEARD_YOU_LIKE_UNIQUE_SYMBOLS')
 
-# packages=find_packages(),
-# package_data=dict(),
-
 setup(name='hsluv-cython',
     version=__version__,
     description=long_description,
@@ -282,6 +279,7 @@ setup(name='hsluv-cython',
     package_dir={
         'hsluv'     : 'hsluv'
     },
+    package_data=dict(),
     url='http://github.com/fish2000/halogen',
     test_suite='nose.collector',
     ext_modules=cythonize([
