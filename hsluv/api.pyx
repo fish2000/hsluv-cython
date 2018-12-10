@@ -1,8 +1,8 @@
 
+cimport cython
 from cython.operator cimport address
 from cython cimport view
 
-cimport cython
 from hsluv cimport funcs
 
 @cython.boundscheck(False)
